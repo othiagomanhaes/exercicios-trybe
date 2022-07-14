@@ -5,19 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
 
     <style>
         h1 {
             font-size: 65px;
             color: orange;
+            font-family: sans-serif;
         }
 
         ul {
             background-color: red;
+            text-align: center;
         }
 
         .text {
             background-color: green;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 3em;
+            text-decoration:underline;
+        }
+
+        body {
+            font-size: 16px;
+            font-style: oblique;
+        }
+
+        li {
+            line-height: 40px;
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+
+        #red {
+            background-color: red;
+        }
+
+        #brown {
+            background-color: rgb(100, 34, 34);
         }
     </style>
 
@@ -26,9 +58,9 @@
     <h1>Exercício 3.2</h1>
     <p class="text">Qual sua cor favorita?</p>
     <ul class="text">
-        <li>Amarelo</li>
-        <li>Vermelho</li>
-        <li>Marrom</li>
+        <li id="yellow">Amarelo</li>
+        <li id="red">Vermelho</li>
+        <li id="brown">Marrom</li>
     </ul>
     
 </body>
