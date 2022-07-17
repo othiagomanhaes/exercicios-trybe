@@ -1,0 +1,45 @@
+div:hover {
+    border-style:ridge;
+}
+
+div:nth-child(3){
+    color: red;
+}
+
+div:nth-child(4){
+    color:green;
+}
+
+div:nth-child(5){
+    color: rgb(238, 85, 14);
+    height: 90px;
+}
+
+div:nth-child(6){
+    color: rgb(48, 7, 7);
+}
+
+div:nth-child(7){
+    color: rgb(129, 207, 207);
+}
+
+div:nth-of-type(1) h3{
+    font-style: italic;
+}
+
+div:nth-of-type(2) h3 {
+    font-family: monospace;
+    
+}
+
+div:nth-of-type(3) h3 { 
+    font-style: italic;
+}
+
+div:nth-of-type(4) h3{
+    font-family:sans-serif;
+}
+
+div:nth-of-type(5) h3{
+    font-style: italic;
+}
