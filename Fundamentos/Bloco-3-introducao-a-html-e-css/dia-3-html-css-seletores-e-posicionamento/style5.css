@@ -1,0 +1,65 @@
+.frases {
+    background-color: yellow;
+}
+
+.frases li:nth-of-type(even) {
+    color: green;
+    font-weight:800;
+}
+
+.frases li:nth-of-type(odd) {
+    text-transform: uppercase;
+}
+
+h1, h3 {
+    color: red;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+.java {
+    color: pink;
+}
+
+.lang li:nth-child(-n+3):not(.java) {
+    color: blue;
+}
+
+.site li a {
+    text-decoration: none;
+    color: rgb(146, 110, 110);
+}
+
+.site li:nth-child(1):hover a{
+    color: orange;
+    font-weight: 600;
+}
+
+.site li:nth-child(2):hover a{
+    color: green;
+    font-weight: 600;
+}
+
+
+.site li:nth-child(3):hover a{
+    color: black;
+    font-weight: 600;
+}
+
+
+.site li:nth-child(4):hover a{
+    color: yellow;
+    font-weight: 600;
+}
+
+.site li:nth-child(5):hover a{
+    color: green;
+    font-weight: 600;
+}
