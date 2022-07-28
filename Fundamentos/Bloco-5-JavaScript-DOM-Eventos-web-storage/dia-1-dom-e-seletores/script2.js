@@ -1,20 +1,39 @@
-let doisAnos = document.getElementsByTagName("p");
-doisAnos[1].innerText = "Daqui a dois anos eu vou estar trabalhando como Desenvolver Web, morando sozinho e em outra cidade".toUpperCase();
+function daquiADoisAnos() {
+    let doisAnos = document.getElementsByTagName("p");
+    doisAnos[1].innerText = "Daqui a dois anos eu vou estar trabalhando como Desenvolver Web, morando sozinho e em outra cidade";
+}
+daquiADoisAnos();
 
-doisAnos[0].style="text-transform: uppercase";
-doisAnos[2].style="text-transform: uppercase";
-
-
+function quadroCorDaTrybe() {
 let principal = document.getElementsByClassName("main-content");
 principal[0].style.backgroundColor = 'rgb(76,164,109)';
+}
+quadroCorDaTrybe();
 
+function quadroVermelhoFicaBranco() {
 let central = document.getElementsByClassName("center-content");
 central[0].style.backgroundColor = 'white';
+}
+quadroVermelhoFicaBranco();
 
+function corrigeH1() {
 document.getElementsByClassName("title")[0].innerText = "Exercício 5.1 - JavaScript";
+}
+corrigeH1();
 
-for (let ind = 0; ind < doisAnos.length; ind += 1) {
-    console.log(doisAnos[ind]);
+function todoPMaiusculo(){
+    let recebeP = document.getElementsByTagName("p");
+    recebeP[0].style="text-transform: uppercase";
+    recebeP[1].style="text-transform: uppercase";
+    recebeP[2].style="text-transform: uppercase";
+}
+todoPMaiusculo();
+
+function mostraParagrafo() {
+    let todosP = document.getElementsByTagName("p");
+    for (let ind = 0; ind < todosP.length; ind += 1){
+        console.log(todosP[ind].innerHTML);
+    }
 }
 
         /*
