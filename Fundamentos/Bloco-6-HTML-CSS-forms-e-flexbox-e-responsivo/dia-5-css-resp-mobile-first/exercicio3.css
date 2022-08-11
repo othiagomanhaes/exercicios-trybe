@@ -80,7 +80,49 @@ body {
   }
 
 @media print {
-    #header, #navigation, #footer {
-        display: none;
+    #navigation, #footer{
+      display: none;
     }
+
+    #header {
+      text-decoration: none;
+      color: black;
+      background-color: #fff;
+      display: flex;
+      justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 500px) {
+  #aside {
+    display: none;
+  }
+  
+  body {
+    padding: 0;
+  }
+
+  img {
+    width: 140%
+  }
+
+  #navigation {
+    padding-top: 80px;
+    height: 80px;
+  }
+
+  #navigation ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header {
+    position: fixed;
+    width: 100%;
+  }
+
+  p {
+    width: 145%;
+    font-size: 25px;
+  }
 }
