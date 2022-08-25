@@ -66,7 +66,7 @@ const books = [
 
 function averageAge(livros) {
   const totalIdade = livros.reduce((acc, elemento) => {
-     return acc+ (elemento.releaseYear - elemento.author.birthYear);  
+     return acc + (elemento.releaseYear - elemento.author.birthYear);  
   }, 0);
 
   return totalIdade / livros.length;
