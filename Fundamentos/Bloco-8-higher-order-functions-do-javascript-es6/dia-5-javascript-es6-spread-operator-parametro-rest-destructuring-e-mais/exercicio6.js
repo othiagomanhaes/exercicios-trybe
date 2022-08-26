@@ -17,3 +17,4 @@ const toObject = (name, factory, age) => {
 console.log(toObject(...palio));
 console.log(toObject(...shelbyCobra));
 console.log(toObject(...chiron));
+
